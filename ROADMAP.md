@@ -12,7 +12,7 @@ Tant que les images de VulnTrack ne sont pas publiées sur GHCR (prévues vers l
 utiliser l'application de démonstration du jour 5.
 
 ## Semaine 1 – Infrastructure as Code et GitOps
-- [ ] Jour 1 – Structure : `terraform/`, `clusters/`, `apps/`, `charts/`, `policies/`, `.github/workflows/`, `docs/`, licence MIT, README (architecture cible).
+- [x] Jour 1 – Structure : `terraform/`, `clusters/`, `apps/`, `charts/`, `policies/`, `.github/workflows/`, `docs/`, licence MIT, README (architecture cible).
 - [ ] Jour 2 – Terraform : cluster kind via provider, modules, variables, `terraform fmt` et `validate` en CI.
 - [ ] Jour 3 – Terraform : namespaces et ingress-nginx via le provider Helm.
 - [ ] Jour 4 – Installation d'ArgoCD par Terraform + bootstrap « app of apps ».
