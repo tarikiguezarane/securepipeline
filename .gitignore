@@ -1,0 +1,33 @@
+# --- OS / editors ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# --- Terraform ---
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+!*.example.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.tfstate.lock.info
+
+# --- Kubernetes / Helm ---
+kubeconfig
+*.kubeconfig
+charts/*/charts/
+charts/*/*.tgz
+
+# --- Secrets (never commit plaintext secrets; sealed/encrypted files only) ---
+.env
+.env.*
+*.pem
+*.key
+!*.pub
